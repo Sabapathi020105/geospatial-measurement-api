@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>City Survey Comprehensive</name>
+    <Placemark id="feat_poly">
+      <name>Reservoir Area</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -122.450,37.750,0
+              -122.440,37.750,0
+              -122.440,37.760,0
+              -122.450,37.760,0
+              -122.450,37.750,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark id="feat_line">
+      <name>Aqueduct Line</name>
+      <LineString>
+        <coordinates>
+          -122.450,37.755,0
+          -122.430,37.755,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="feat_pt">
+      <name>Pumping Station</name>
+      <Point>
+        <coordinates>-122.445,37.755,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

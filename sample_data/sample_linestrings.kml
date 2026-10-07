@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>City Transit Routes</name>
+    <Placemark id="route_101">
+      <name>Market Street Main Corridor</name>
+      <description>Primary arterial line</description>
+      <ExtendedData>
+        <Data name="route_type"><value>Bus</value></Data>
+        <Data name="frequency_mins"><value>10</value></Data>
+      </ExtendedData>
+      <LineString>
+        <coordinates>
+          -122.4194,37.7749,0
+          -122.4150,37.7780,0
+          -122.4100,37.7810,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="route_102">
+      <name>Mission Spur</name>
+      <description>Secondary feeder line</description>
+      <LineString>
+        <coordinates>
+          -122.4194,37.7749,0
+          -122.4194,37.7710,0
+          -122.4160,37.7680,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

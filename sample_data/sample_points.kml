@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Weather Monitoring Stations</name>
+    <Placemark id="station_alpha">
+      <name>Station Alpha</name>
+      <Point>
+        <coordinates>-122.4194,37.7749,15</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="station_beta">
+      <name>Station Beta</name>
+      <Point>
+        <coordinates>-122.4150,37.7780,18</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

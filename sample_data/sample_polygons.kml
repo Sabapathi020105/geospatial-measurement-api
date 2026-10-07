@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Urban Parcels</name>
+    <Placemark id="parcel_01">
+      <name>North Quad</name>
+      <description>Green lawn and park area</description>
+      <ExtendedData>
+        <Data name="zone"><value>Commercial-A</value></Data>
+        <Data name="tax_id"><value>9042</value></Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -122.4194,37.7749,0
+              -122.4184,37.7749,0
+              -122.4184,37.7759,0
+              -122.4194,37.7759,0
+              -122.4194,37.7749,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark id="parcel_02">
+      <name>South Plaza</name>
+      <description>Paved square area</description>
+      <ExtendedData>
+        <Data name="zone"><value>Public-B</value></Data>
+        <Data name="tax_id"><value>9043</value></Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -122.4200,37.7730,0
+              -122.4170,37.7730,0
+              -122.4170,37.7745,0
+              -122.4200,37.7745,0
+              -122.4200,37.7730,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
